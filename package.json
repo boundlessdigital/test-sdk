@@ -1,0 +1,19 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@boundlessdigital/meraki-sdk": "^0.1.19",
+    "colors": "^1.4.0"
+  },
+  "scripts": {
+    "clean": "rm -rf build dist",
+    "start": "yarn clean && ts-node  --esm src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
